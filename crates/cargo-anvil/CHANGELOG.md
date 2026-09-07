@@ -1,5 +1,28 @@
 # Changelog
 
+## [Unreleased]
+
+## [0.9.0] - 2026-09-07
+
+- 🐛 Bug Fixes
+
+  - address validation follow-ups ([#131](https://github.com/microsoft/ox-tools/pull/131))
+  - remove Bash from ADO steps ([#160](https://github.com/microsoft/ox-tools/pull/160))
+
+## [0.8.0] - 2026-09-04
+
+- ⚠️ Breaking
+
+  - identify the ADO stage on every job wrapper invocation ([#154](https://github.com/microsoft/ox-tools/pull/154))
+
+- ✨ Features
+
+  - replace legacy CI with aggregate gate ([#158](https://github.com/microsoft/ox-tools/pull/158))
+
+- 🐛 Bug Fixes
+
+  - let the container image resolve the declared MSRV ([#155](https://github.com/microsoft/ox-tools/pull/155))
+
 ## [0.7.0] - 2026-09-03
 
 - ✨ Features
